@@ -9,17 +9,17 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
-      <div class="flex-container__BaseSp" id="MediaData">
+      <div class="flex-container__BaseSp" id="LinksData">
           <span v-cloak>
           <br>
-        <div class="flex-container_1" v-for="media in mediadata">
-          <div class="flex-container_SpCard" :style="{ 'backgroundColor': media.Month_Card_Color }">
-            <div class="flex-item_SpText" :style="{ 'backgroundColor': media.Box_Color }">
-            <h2><h2a :style="{ 'color': media.Title_Font_Color }">{{ media.Event_Title }}</h2a></h2>
-            <div style="text-align:center"><span v-html="media.Display_Purpose"></span></div>
+        <div class="flex-container_1" v-for="links in linksdata">
+          <div class="flex-container_SpCard" :style="{ 'backgroundColor': links.Month_Card_Color }">
+            <div class="flex-item_SpText" :style="{ 'backgroundColor': links.Box_Color }">
+            <h2><h2a :style="{ 'color': links.Title_Font_Color }">{{ links.name }}</h2a></h2>
+            <div style="text-align:center"><span v-html="links.phone"></span></div>
             </div>
-            <div class="flex-item_SpItems" :style="{ 'backgroundColor': media.Box_Color }">
-              <img style='height: 100%; width: 100%; object-fit: contain' :src="media.File_Location">
+            <div class="flex-item_SpItems" :style="{ 'backgroundColor': links.Box_Color }">
+              <img style='height: 100%; width: 100%; object-fit: contain' :src="links.url">
             </div>
           </div>
           <br>
