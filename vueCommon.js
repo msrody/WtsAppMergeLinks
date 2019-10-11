@@ -2,11 +2,11 @@ const url = "https://script.google.com/macros/s/AKfycbwynuqMjvvzdpClj54uiWKEFFtT
 const vm = new Vue({
   el: '#MediaData',
   data: {
-    mediadata: []
+    linkdata: []
   },
   mounted() {
       axios.get(url).then(response => {
-        this.mediadata = response.data
+        this.linkdata = response.data
       })
     }
 });
@@ -15,11 +15,11 @@ const urll = "https://api.steinhq.com/v1/storages/5d81e49d95caec04c53f7093/PageO
 const vml = new Vue({
   el: '#PageOptions',
   data: {
-    links: []
+    pgopts: []
   },
   mounted() {
       axios.get(urll).then(response => {
-        this.links = response.data
+        this.pgopts = response.data
       })
     }
 });
