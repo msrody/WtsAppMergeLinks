@@ -1,4 +1,4 @@
-const url = "https://api.steinhq.com/v1/storages/5d81e49d95caec04c53f7093/Data";  
+const url = "https://script.google.com/macros/s/AKfycbwynuqMjvvzdpClj54uiWKEFFtTfZirFAlbFu8kJ1GTa4FsPTtu/exec";  
 const vm = new Vue({
   el: '#MediaData',
   data: {
