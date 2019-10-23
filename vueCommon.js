@@ -1,4 +1,4 @@
-const url = "https://script.google.com/a/iesjakarta.org/macros/s/AKfycbz6xgcI2JkPqM6NzKaXJ9Y0fjgX41e0mxRKjXqH-SMG/dev";  
+const url = "https://api.steinhq.com/v1/storages/5dafebc65a823204986f3823/Mobil_LinksToSend";  
 const vm = new Vue({
   el: '#MediaData',
   data: {
