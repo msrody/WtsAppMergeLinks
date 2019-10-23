@@ -1,4 +1,4 @@
-const url = "https://script.google.com/macros/s/AKfycbwynuqMjvvzdpClj54uiWKEFFtTfZirFAlbFu8kJ1GTa4FsPTtu/exec";  
+const url = "https://script.google.com/a/iesjakarta.org/macros/s/AKfycbz6xgcI2JkPqM6NzKaXJ9Y0fjgX41e0mxRKjXqH-SMG/dev";  
 const vm = new Vue({
   el: '#MediaData',
   data: {
